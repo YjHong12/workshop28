@@ -46,6 +46,11 @@ body > div {
   color: white;
 }
 
+.pink {
+  background-color: pink;
+  color: white;
+}
+
 .home {
   background-color: #cce2cb;
   color: #97c1a9;
