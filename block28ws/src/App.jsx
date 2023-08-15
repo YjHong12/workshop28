@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import Red from "./components/Red";
-import Blue from "./components/Blue";
-import Pink from "./components/Pink";
-import Home from "./components/Home";
+// import Red from "./components/Red";
+// import Blue from "./components/Blue";
+// import Pink from "./components/Pink";
+// import Home from "./components/Home";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
+import MainRoutes from "./components/MainRoutes"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,12 +22,13 @@ function App() {
       </div> */}
 
       <div id="main-section">
-        <Routes>
+        <MainRoutes />
+        {/* <Routes>
           <Route path="/blue" element={<Blue />} />
           <Route path="/red" element={<Red />} />
           <Route path="/pink" element={<Pink />} />
           <Route path="/" element={<Home />} />
-        </Routes>
+        </Routes> */}
       </div>
 
       <Footer />
